@@ -12,14 +12,9 @@ expression EOL {}
 expression:
 expression PLUS terme {}
 | expression MOINS terme {}
-| terme {}
+| expression FOIS expression{}
+|GPAREN expression DPAREN{}
+|MOINS expression %prec UMOINS {}
+|NOMBRE {}
 ;
-terme:
-terme FOIS facteur {}
-| facteur {}
-;
-facteur:
-GPAREN expression DPAREN {}
-| MOINS expression %prec UMOINS {}
-| NOMBRE {}
-;
+
