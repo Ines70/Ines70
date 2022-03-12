@@ -1,4 +1,8 @@
 %token NOMBRE PLUS MOINS FOIS GPAREN DPAREN EOL
+%left PLUS MOINS
+%left FOIS
+%nonassoc UMOINS
+
 %type <unit> main expression terme facteur
 %start main
 %%
@@ -16,6 +20,6 @@ terme FOIS facteur {}
 ;
 facteur:
 GPAREN expression DPAREN {}
-| MOINS facteur {}
+| MOINS expression %prec UMOINS {}
 | NOMBRE {}
 ;
