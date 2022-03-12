@@ -1,6 +1,6 @@
-%token NOMBRE PLUS MOINS FOIS GPAREN DPAREN PT_VIRG
+%token NOMBRE PLUS MOINS FOIS GPAREN DPAREN PT_VIRG MOD
 %left PLUS MOINS
-%left FOIS
+%left FOIS MOD
 %nonassoc UMOINS
 
 %type <unit> main expression terme facteur
@@ -15,6 +15,7 @@ expression PLUS terme {}
 | expression FOIS expression {}
 | GPAREN expression DPAREN {}
 | MOINS expression %prec UMOINS {}
+| expression MOD expression {}
 | NOMBRE {}
  ;
 
