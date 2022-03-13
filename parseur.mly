@@ -1,5 +1,7 @@
 %token<int> NOMBRE 
 %token PLUS MOINS FOIS GPAREN DPAREN EOL
+%token NOMBRE PLUS MOINS FOIS GPAREN DPAREN PT_VIRG
+%token NOMBRE PLUS MOINS FOIS GPAREN DPAREN EOL
 %left PLUS MOINS
 %left FOIS
 %nonassoc UMOINS
@@ -9,6 +11,11 @@
 %%
 main:
 expression EOL { $1 }
+%type <unit> main expression terme facteur
+%start main
+%%
+main:
+expression PT_VIRG {}
 ;
 expression:
 expression PLUS expression { $1+$3 }
