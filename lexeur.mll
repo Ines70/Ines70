@@ -12,6 +12,7 @@ rule token = parse
 | '*' { FOIS }
 | '(' { GPAREN }
 | ')' { DPAREN }
+| '%' { MOD }
 | eof { raise Eof }
 | _ { raise TokenInconu 
 }
