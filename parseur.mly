@@ -11,11 +11,6 @@ open AST
 %%
 main:
 expression EOL { $1 }
-%type <unit> main expression 
-%start main
-%%
-main:
-expression PT_VIRG {}
 ;
 expression:
 expression PLUS expression { Plus ($1,$3) }
