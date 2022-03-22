@@ -2,7 +2,7 @@
 open AST
 %}
 %token <int> NOMBRE
-%token PLUS MOINS FOIS GPAREN DPAREN  EOL 
+%token PLUS MOINS FOIS GPAREN DPAREN PT_VIRG EOL 
 %left PLUS MOINS
 %left FOIS
 %nonassoc UMOINS
@@ -11,8 +11,12 @@ open AST
 %%
 main:
 expression EOL { $1 }
+%type <unit> main expression terme facteur
+%start main
+%%
+main:
+expression PT_VIRG {}
 ;
-
 expression:
 expression PLUS expression { Plus ($1,$3) }
 | expression MOINS expression { Moins($1,$3) }
@@ -21,5 +25,7 @@ expression PLUS expression { Plus ($1,$3) }
 |MOINS expression %prec UMOINS { Neg $2 }
 |NOMBRE { Num $1 }
 ;
+
+
 
 
