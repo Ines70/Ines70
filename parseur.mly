@@ -11,7 +11,7 @@ open AST
 %%
 main:
 expression EOL { $1 }
-%type <unit> main expression terme facteur
+%type <unit> main expression 
 %start main
 %%
 main:
