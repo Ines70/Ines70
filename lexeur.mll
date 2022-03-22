@@ -7,10 +7,7 @@ rule token = parse
 [' ' '\t'] { token lexbuf }
 | ['\n'] { EOL }
 | ['0'-'9']+ as lexem{ NOMBRE(int_of_string lexem) }
-[' ' '\t' '\n'] { token lexbuf }
-| ';' { PT_VIRG }
-| ['0'-'9']+ { NOMBRE }
-| '+' { PLUS }
+| [' ' '\t' '\n'] { token lexbuf }
 | '-' { MOINS }
 | '*' { FOIS }
 | '(' { GPAREN }
