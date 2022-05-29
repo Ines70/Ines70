@@ -1,2 +1,4 @@
 {
-    "name": "Diplome","children": [{ "name": "Licences","size":"50"},{ "name": "Master","size":"30"}]} 
+    "name": "Diplome","children": [{ "name": "Licence","children":[{"name":"ADMINISTRATION ECONOMIQUE ET SOCIALE","size":4241},
+                                   {"name":"ARTS, LETTRES LANGUES : LANGUES ETRANGERES APPLIQUEES (LEA)","size":492}, {"name":"ARTS, LETTRES LANGUES : LETTRES MODERNES","size":227}]},
+                                   { "name": "Master1","size":"17771"}]} 
