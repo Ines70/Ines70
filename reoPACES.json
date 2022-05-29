@@ -4,11 +4,11 @@
 {"node":1,"name":"LANGUES, LITTERATURES ET CIVILISATIONS ETRANGERES ET REGIONALES"},
 {"node":2,"name":"PHYSIQUE, CHIMIE"},
 {"node":3,"name":"PORTAIL STAPS 1ERE ET 2EME ANNEE"},
-{"node":5,"name":"ECONOMIE ET GESTION"},
-{"node":6,"name":"SCIENCES POUR LA SANTE"},
-{"node":7,"name":"PSYCHOLOGIE"},
-{"node":8,"name":"SCIENCES, TECHNOLOGIE, SANTE : SCIENCES POUR L'INGENIEUR"},
-{"node":9,"name":" SCIENCES, TECHNOLOGIE, SANTE : SCIENCES ET TECHNIQUES DES ACTIVITES PHYSIQUES ET SPORTIVES (ANNEE COMMUNE)"}
+{"node":4,"name":"ECONOMIE ET GESTION"},
+{"node":5,"name":"SCIENCES POUR LA SANTE"},
+{"node":6,"name":"PSYCHOLOGIE"},
+{"node":7,"name":"SCIENCES, TECHNOLOGIE, SANTE : SCIENCES POUR L'INGENIEUR"},
+{"node":8,"name":" SCIENCES, TECHNOLOGIE, SANTE : SCIENCES ET TECHNIQUES DES ACTIVITES PHYSIQUES ET SPORTIVES (ANNEE COMMUNE)"}
  
 ],
 "links":[
@@ -19,6 +19,5 @@
 {"source":0,"target":5,"value":2},
 {"source":0,"target":6,"value":2},
 {"source":0,"target":7,"value":2},
-{"source":0,"target":8,"value":2},
-{"source":0,"target":9,"value":2}
+{"source":0,"target":8,"value":2}
 ]}  
