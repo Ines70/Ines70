@@ -1,4 +1,4 @@
 {
  "name": "flare",
- "children": [{"name":"ines", "value":28}]
+ "children": [{"name":"ines", "size":28}]
 }
