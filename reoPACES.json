@@ -1,0 +1,5 @@
+{
+    "name": "PACES","children":[{"name":"ECONOMIE ET GESTION","size":1},
+        {"name":"LANGUES, LITTERATURES ET CIVILISATIONS ETRANGERES ET REGIONALES","size":1},
+        {"name":"PHYSIQUE, CHIMIE","size":7},{"name":"PORTAIL STAPS 1ERE ET 2EME ANNEE","size":1},{"name":"PSYCHOLOGIE","size":5},
+        {"name":"SCIENCES DE L'EDUCATION","size":2},{"name":"SCIENCES DE LA VIE","size":104}]}
