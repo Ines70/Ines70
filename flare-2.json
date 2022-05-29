@@ -4,5 +4,9 @@
                                    {"name":"ARTS, LETTRES LANGUES : LETTRES MODERNES","size":227},
                                     {"name":"ARTS, LETTRES, LANGUES : LANGUES","size":623},
                                     {"name":"BIOLOGIE, SPORT, SANTE : STAPS","size":53},
-                                   {"name":"DROIT","size":7239}, {"name":"DROIT","size":7239}]},
+                                   {"name":"DROIT","size":7239}, {"name":"DROIT, ECONOMIE, GESTION : ECONOMIE GESTION","size":1039},{"name":"DROIT, ECONOMIE, GESTION : DROIT","size":2002},
+                                   {"name":"DROIT, SCIENCE POLITIQUE : SOCIOLOGIE POLITIQUE" ,"size":777},{"name":"ECONOMIE ET GESTION" ,"size":5783},{"name":"GEOGRAPHIE ET AMENAGEMENT" ,"size":946},
+                                   {"name":"HISTOIRE" ,"size":961}, {"name":"HUMANITES, SCIENCES DE L'HOMME ET DU COMPORTEMENT : SCIENCES DE L'EDUCATION INTERVENTIONS SOCIALES ET CULTURELLES" ,"size":175},
+                                   {"name":"HISTOIRE" ,"size":961}, {"name":"INFORMATION-COMMUNICATION" ,"size":3120},{"name":"INFORMATIQUE","size":4249}]},
+
                                      { "name": "Master1","size":"17771"}]}
