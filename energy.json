@@ -3,7 +3,15 @@
     {"name":"redoublement"},
     {"name":"LIC(IFSI) 1ère année"},
     {"name":"DUT 1ère année"},
-    {"name":"PACES"}
+    {"name":"PACES"},
+    {"name":"DAEU 01"},
+    {"name":"Licence 02"},
+    {"name":"PACES 01"},
+    {"name":"DEUST 02"},
+    {"name":"Master Pro 02"},
+    {"name":"Lic (IFSI) 03"},
+    {"name":"Lic (IFSI) 01"},
+    {"name":"Lic CPGE 02"}
     ],
     "links":[
     {"source":0,"target":1,"value":10018},
