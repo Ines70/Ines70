@@ -1,29 +1,14 @@
 {"nodes":[
     {"name":"Licence 1"},
-    {"name":"DEUST 01"},
-    {"name":"Doctorat 01"},
-    {"name":"BUT 01"},
-    {"name":"Ing. class 01"},
-    {"name":"Capacite 01"},
-    {"name":"PASS 01"},
-    {"name":"Master2"},
-    {"name":"DAEU 01"},
-    {"name":"Licence 02"},
-    {"name":"PACES 01"},
-    {"name":"DEUST 02"},
-    {"name":"Master Pro 02"},
-    {"name":"Lic (IFSI) 03"},
-    {"name":"Lic (IFSI) 01"},
-    {"name":"Lic CPGE 02"}
+    {"name":"redoublement"},
+    {"name":"LIC(IFSI) 1ère année"},
+    {"name":"DUT 1ère année"},
+    {"name":"PACES"}
     ],
     "links":[
-    {"source":0,"target":1,"value":124.729},
-    {"source":0,"target":2,"value":0.597},
-    {"source":0,"target":3,"value":26.862},
-    {"source":0,"target":4,"value":280.322},
-    {"source":0,"target":5,"value":81.144},
-    {"source":0,"target":6,"value":35},
-    {"source":0,"target":7,"value":35},
-    {"source":0,"target":8,"value":11.606},
-    {"source":0,"target":9,"value":63.965}
+    {"source":0,"target":1,"value":10018},
+    {"source":0,"target":2,"value":7281},
+    {"source":0,"target":3,"value":298},
+    {"source":0,"target":4,"value":208},
+    {"source":0,"target":5,"value":123}
     ]}
